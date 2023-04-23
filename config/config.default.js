@@ -41,22 +41,22 @@ module.exports = appInfo => {
   };
 
   config.userData = {
-    mineBirth: "1994-03-24", // 自己的生日
-    gfBirth: "1994-12-26", // 女朋友的生日
-    loveDay: "2007-08-11", // 在一起的日期
-    weatherCity: '茂名市' // 需要获取天气的城市，必须时xx市，xx县，xx自治区, 详细可以去utils/amap.js搜索到就可以，比如广州市，不能是广州
+    mineBirth: "1996-12-20", // 自己的生日
+    gfBirth: "1998-12-25", // 女朋友的生日
+    loveDay: "2023-04-06", // 在一起的日期
+    weatherCity: '松滋市' // 需要获取天气的城市，必须时xx市，xx县，xx自治区, 详细可以去utils/amap.js搜索到就可以，比如广州市，不能是广州
   }
 
   config.userCity = {
-    "adname":"茂名市",
-    "adcode":"440900"
+    "adname":"松滋市",
+    "adcode":"421087"
   }
 
   // 寄言 一旦设置了就不会请求接口，在这里随机返送一条
   config.words = []
 
   // 手动设置彩虹屁
-  config.caihongpi = []
+  config.caihongpi = [姐姐，今天我也有很想你哦]
 
   return {
     ...config,
